@@ -14,6 +14,7 @@ RUN apt update && \
     git \
     wget \
     awscli \
+    make \
     kubectl \
     helm="$HELM_VERSION" \
     && rm -rf /var/lib/apt/lists/*
